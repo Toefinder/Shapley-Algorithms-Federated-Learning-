@@ -39,7 +39,6 @@ For 10 clients, add another argument --num_users=10, for example
 
 ## Options
 The default values for various paramters parsed to the experiment are given in options.py. Details are given some of those parameters:
-
 --dataset: Default: 'mnist'. Options: 'OurMNIST'
 --model: Default: 'mlp'. 
 --gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.
