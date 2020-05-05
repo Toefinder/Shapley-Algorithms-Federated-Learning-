@@ -10,13 +10,13 @@ References: https://github.com/AshwinRJ/Federated-Learning-PyTorch, https://gith
 ## Structure of the folder:
 /data: contains the data for OurMNIST. These data are in the form of dictionaries. The keys correspond to the indices of users, and each value is a list of tuples (feature, label) where feature and label are tensors. To see how these dictionaries are generated, run Datasets.ipynb and Datasets_combinations.ipynb. 
 
-/save: the folder that our generated output file will be saved to
+/save: the folder that our generated output file will be saved to  
 
-/src: the folder containing all the code
-	/src/models.py: the code for 2-layer MLP that we use. 
-	/src/options.py: the specifications of all the arguments (eg number of local epochs, number of global epochs,...) we can run with 
-	/src/utils.py: containing a definition of wrapper for OurMNIST dataset, and other useful functions 
-	/src/update.py: the local update
+/src: the folder containing all the code  
+	/src/models.py: the code for 2-layer MLP that we use.   
+	/src/options.py: the specifications of all the arguments (eg number of local epochs, number of global epochs,...) we can run with   
+	/src/utils.py: containing a definition of wrapper for OurMNIST dataset, and other useful functions   
+	/src/update.py: the local update  
 
 
 ## Requirements
