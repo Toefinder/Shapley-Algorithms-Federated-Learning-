@@ -46,9 +46,9 @@ The default values for various paramters parsed to the experiment are given in o
 --gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.   
 --epochs: Number of rounds of training.  
 --lr: Learning rate set to 0.01 by default.  
-*Federated Parameters*  
+**Federated Parameters**
 --num_users:Number of users. Default is 5. Options: 10  
 --local_ep: Number of local training epochs in each user. Default is 10.  
 --local_bs: Batch size of local updates in each user. Default is 64.  
-*Other parameters:*     
+**Other parameters:**     
 --traindivision: the case of dataset split (values are from 1 to 5)   
