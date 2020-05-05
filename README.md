@@ -27,7 +27,7 @@ First, cd to the folder /src
 
 To run Exact Non-federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:  
 ```python exactNonfederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10```    
-*Note that --traindivision is the case for dataset split
+*Note that --traindivision is the case for dataset split*
 
 To run Exact Federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:
 ```python exactFederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10```  
@@ -40,15 +40,15 @@ For 10 clients, add another argument --num_users=10, for example
 
 
 ## Options
-The default values for various paramters parsed to the experiment are given in options.py. Details are given some of those parameters:
---dataset: Default: 'mnist'. Options: 'OurMNIST'
---model: Default: 'mlp'. 
---gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.
---epochs: Number of rounds of training.
---lr: Learning rate set to 0.01 by default.
-Federated Parameters
---num_users:Number of users. Default is 5. Options: 10
---local_ep: Number of local training epochs in each user. Default is 10.
---local_bs: Batch size of local updates in each user. Default is 64.
-Other parameters: 
---traindivision: the case of dataset split (values are from 1 to 5) 
+The default values for various paramters parsed to the experiment are given in options.py. Details are given some of those parameters:  
+--dataset: Default: 'mnist'. Options: 'OurMNIST'  
+--model: Default: 'mlp'.   
+--gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.   
+--epochs: Number of rounds of training.  
+--lr: Learning rate set to 0.01 by default.  
+*Federated Parameters*  
+--num_users:Number of users. Default is 5. Options: 10  
+--local_ep: Number of local training epochs in each user. Default is 10.  
+--local_bs: Batch size of local updates in each user. Default is 64.  
+Other parameters:   
+--traindivision: the case of dataset split (values are from 1 to 5)   
