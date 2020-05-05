@@ -40,7 +40,7 @@ For 10 clients, add another argument --num_users=10, for example
 
 
 ## Options
-The default values for various paramters parsed to the experiment are given in options.py. Details are given some of those parameters:  
+The default values for various paramters parsed to the experiment are given in options.py. Details are given for some of those parameters:  
 --dataset: Default: 'mnist'. Options: 'OurMNIST'  
 --model: Default: 'mlp'.   
 --gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.   
@@ -50,5 +50,5 @@ The default values for various paramters parsed to the experiment are given in o
 --num_users:Number of users. Default is 5. Options: 10  
 --local_ep: Number of local training epochs in each user. Default is 10.  
 --local_bs: Batch size of local updates in each user. Default is 64.  
-Other parameters:   
+*Other parameters:*     
 --traindivision: the case of dataset split (values are from 1 to 5)   
