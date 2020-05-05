@@ -2,9 +2,10 @@
 Efficient approximation algorithms for Shapley Values in Horizontal Enterprise Federated Learning
 
 ## This is the implementation of paper titled "Time Efficient Algorithms to approximate the Shapley Values for Horizontal Enterprise Federated Learning" 
-Experiments are conducted on modified MNIST, called OurMNIST. The purpose is to measure how accurate and fast the approximation algorithms are. 
-Collaborator: Lin Lejia (https://github.com/lejia00) for the datasets preprocessing, and development of OR and MR algorithm
-Mentor: Dr Liu Zelei (https://github.com/liuzelei13) 
+Experiments are conducted on modified MNIST, called OurMNIST. The purpose is to measure how accurate and fast the approximation algorithms are.  
+Collaborator: Lin Lejia (https://github.com/lejia00) for the datasets preprocessing, and development of OR and MR algorithm  
+Mentor: Dr Liu Zelei (https://github.com/liuzelei13)   
+References: https://github.com/AshwinRJ/Federated-Learning-PyTorch, https://github.com/amiratag/DataShapley
 
 ## Structure of the folder:
 /data: contains the data for OurMNIST. These data are in the form of dictionaries. The keys correspond to the indices of users, and each value is a list of tuples (feature, label) where feature and label are tensors. To see how these dictionaries are generated, run Datasets.ipynb and Datasets_combinations.ipynb. 
