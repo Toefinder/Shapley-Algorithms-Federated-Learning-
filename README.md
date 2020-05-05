@@ -23,8 +23,8 @@ Install the packages from requirements.txt
 ### Running the experiments
 First, cd to the folder /src
 
-To run Exact Non-federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:
-```python exactNonfederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10```
+To run Exact Non-federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:  
+```python exactNonfederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10```  
 *Note that --traindivision is the case for dataset split
 
 To run Exact Federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:
