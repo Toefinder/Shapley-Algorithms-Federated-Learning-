@@ -24,20 +24,20 @@ Install the packages from requirements.txt
 First, cd to the folder /src
 
 To run Exact Non-federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:
-'''python exactNonfederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10'''
+```python exactNonfederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10```
 *Note that --traindivision is the case for dataset split
 
 To run Exact Federated Shapley for 5 users, for case 1 (equal distribution with same size), and 10 global epochs:
-python exactFederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10
+```python exactFederated_main.py --model=mlp --dataset=OurMNIST --traindivision=1 --epochs=10```
 
 
-To run OR, Adjusted OR, OR-TMC, Adjusted OR-TMC, just change the .py argument accordingly.
+To run OR, Adjusted OR, OR-TMC, Adjusted OR-TMC, just change the .py argument accordingly. Note that the MR algorithm is timed differently (the total run time is recorded, instead of just time for calculation of Shapley Value)
 
 For 10 clients, add another argument --num_users=10, for example 
-python federatedOR_main.py --model=mlp --dataset=OurMNIST --num_users=10 --traindivision=1 --epochs=10
+```python federatedOR_main.py --model=mlp --dataset=OurMNIST --num_users=10 --traindivision=1 --epochs=10```
 
 
-### Options
+## Options
 The default values for various paramters parsed to the experiment are given in options.py. Details are given some of those parameters:
 
 --dataset: Default: 'mnist'. Options: 'OurMNIST'
