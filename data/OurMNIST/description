@@ -1,1 +1,2 @@
-The dictionary1 to dictionary5 for the 5 cases of dataset split
+The dictionary1 to dictionary5 for the 5 cases of dataset split.   
+Also cdictionary1 to cdictionary5 for combination of trainsets (data from all the subsets S of N). Look at Datasets_combinations.ipynb for more details
